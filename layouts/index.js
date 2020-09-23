@@ -85,7 +85,7 @@ export default function BlogLayout({ children, frontMatter }) {
           </Flex>
         </Flex>
         {children}
-        <Subscribe />
+        {/* <Subscribe /> */}
         <Box>
           <Link href={discussUrl(slug)} isExternal>
             {'Discuss on Twitter'}
