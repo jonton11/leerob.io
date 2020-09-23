@@ -3,13 +3,8 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "env": {
-    "FIREBASE_PRIVATE_KEY": "@firebase-private-key",
-    "FIREBASE_CLIENT_EMAIL": "@firebase-client-email",
-    "UNSPLASH_ACCESS_KEY": "@unsplash-access-key",
-    "GOOGLE_ENCRYPTION_IV": "@google-encryption-iv",
-    "GOOGLE_ENCRYPTION_KEY": "@google-encryption-key",
-    "BUTTONDOWN_API_KEY": "@buttondown-api-key",
-    "GUMROAD_API_KEY": "@gumroad-api-key"
+    "FIREBASE_PRIVATE_KEY": "AIzaSyAyH42gc9baQHvUjsND5Ve5-u_Lmi2KeQs",
+    "FIREBASE_CLIENT_EMAIL": "jonathan.jkw.wong@gmail.com"
   },
   "redirects": [
     {
