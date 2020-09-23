@@ -80,10 +80,10 @@ const Subscribe = () => {
         Subscribe to the newsletter
       </Heading>
       <Text>
-        Get emails from me about web development, tech, and early access to new
+        Coming Soon! Get emails from me about web development, tech, and early access to new
         articles.
       </Text>
-      <InputGroup size="md" mt={4}>
+      {/* <InputGroup size="md" mt={4}>
         <Input
           aria-label="Email for newsletter"
           placeholder="tim@apple.com"
@@ -101,7 +101,7 @@ const Subscribe = () => {
             Subscribe
           </Button>
         </InputRightElement>
-      </InputGroup>
+      </InputGroup> */}
     </Box>
   );
 };
