@@ -14,7 +14,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://jonton.dev/static/images/og.jpg',
+        url: 'https://jonton.dev/static/favicons/jon150.png',
         alt: title,
         width: 1280,
         height: 720
