@@ -38,8 +38,7 @@ const Index = () => {
             Hey, I’m Jonathan
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
-            I’m a Full Stack Web Developer, manager, and creator. I work at CodeCast as a
-            Web Developer. Welcome to my corner!
+            I’m a Full Stack Web Developer, manager, and creator. I work at Keela as the Head of Product Engineering (Web). Welcome to my corner!
           </Text>
         </Flex>
         {/* <Flex

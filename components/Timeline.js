@@ -46,7 +46,7 @@ const TimelineStep = ({ title, children }) => {
 
 const FullTimeline = () => (
   <>
-    <YearDivider />
+    {/* <YearDivider />
     <Heading as="h3" size="lg" fontWeight="bold" mb={4} letterSpacing="tighter">
       2018
     </Heading>
@@ -157,10 +157,10 @@ const FullTimeline = () => (
         Every time we'd go to Target, I would beg my mom to get a pack of
         Pokémon cards. Sorry, mom.
       </TimelineStep>
-    </List>
+    </List> */}
     <YearDivider />
     <Heading as="h3" size="lg" fontWeight="bold" mb={4} letterSpacing="tighter">
-      1993
+      1992
     </Heading>
     <List>
       <TimelineStep title="Born 👶🏼🍼" />
@@ -192,7 +192,10 @@ const Timeline = () => {
         2020
       </Heading>
       <List>
-        <TimelineStep title="Joined ▲Vercel">
+        <TimelineStep title="Coming soon!">
+          Will be adding more shortly! 🥳
+        </TimelineStep>
+        {/* <TimelineStep title="Joined ▲Vercel">
           I'm excited to help grow the Next.js community and continue building
           the optimal workflow for front-end developers.
         </TimelineStep>
@@ -247,9 +250,9 @@ const Timeline = () => {
         <TimelineStep title="Spoke at Talent42 🎤">
           I spoke to over 100 technical recruiting leaders from across the
           country at Talent42 in Seattle during a 45-minute keynote.
-        </TimelineStep>
+        </TimelineStep> */}
       </List>
-      {isShowingFullTimeline ? (
+      {/* {isShowingFullTimeline ? (
         <FullTimeline />
       ) : (
         <Button
@@ -262,7 +265,7 @@ const Timeline = () => {
         >
           See More
         </Button>
-      )}
+      )} */}
     </Flex>
   );
 };
