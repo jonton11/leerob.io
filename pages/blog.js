@@ -34,14 +34,15 @@ const Blog = () => {
     dark: 'gray.400'
   };
 
-  const filteredBlogPosts = blogPosts
-    .sort(
-      (a, b) =>
-        Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
-    )
-    .filter((frontMatter) =>
-      frontMatter.title.toLowerCase().includes(searchValue.toLowerCase())
-    );
+  const filteredBlogPosts = []; 
+  // blogPosts
+  //   .sort(
+  //     (a, b) =>
+  //       Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
+  //   )
+  //   .filter((frontMatter) =>
+  //     frontMatter.title.toLowerCase().includes(searchValue.toLowerCase())
+  //   );
 
   return (
     <>
@@ -74,9 +75,7 @@ const Blog = () => {
               Blog
             </Heading>
             <Text color={secondaryTextColor[colorMode]}>
-              {`I've been writing online since 2020, mostly about web development and tech careers.
-                In total, I've written ${blogPosts.length} articles on this site.
-                Use the search below to filter by title.`}
+              {`I've been writing online since 2020, about web development and tech careers. Use the search below to filter by title.`}
             </Text>
             <InputGroup my={4} mr={4} w="100%">
               <Input
@@ -89,7 +88,7 @@ const Blog = () => {
               </InputRightElement>
             </InputGroup>
           </Flex>
-          {!searchValue && (
+          {/* {!searchValue && (
             <Flex
               flexDirection="column"
               justifyContent="flex-start"
@@ -104,7 +103,7 @@ const Blog = () => {
               <BlogPost {...stripeDesign} />
               <BlogPost {...monorepo} />
             </Flex>
-          )}
+          )} */}
           <Flex
             flexDirection="column"
             justifyContent="flex-start"
