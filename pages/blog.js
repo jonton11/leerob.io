@@ -21,10 +21,10 @@ import { frontMatter as styleGuides } from './blog/style-guides-component-librar
 import { frontMatter as stripeDesign } from './blog/how-stripe-designs-beautiful-websites.mdx';
 import { frontMatter as monorepo } from './blog/monorepo-lerna-yarn-workspaces.mdx';
 
-const url = 'https://leerob.io/blog';
-const title = 'Blog – Lee Robinson';
+const url = 'https://jonton.dev/blog';
+const title = 'Blog – Jonathan Wong';
 const description =
-  'Thoughts on the software industry, programming, tech, videography, music, and my personal life.';
+  'Thoughts on the software industry, programming, tech, basketball, and my personal life.';
 
 const Blog = () => {
   const [searchValue, setSearchValue] = useState('');
@@ -74,7 +74,7 @@ const Blog = () => {
               Blog
             </Heading>
             <Text color={secondaryTextColor[colorMode]}>
-              {`I've been writing online since 2014, mostly about web development and tech careers.
+              {`I've been writing online since 2020, mostly about web development and tech careers.
                 In total, I've written ${blogPosts.length} articles on this site.
                 Use the search below to filter by title.`}
             </Text>

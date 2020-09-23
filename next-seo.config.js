@@ -1,20 +1,20 @@
-const title = 'Lee Robinson – Developer, writer, creator.';
+const title = 'Jonathan Wong - Web Developer.';
 const description =
-  'Front-end developer, JavaScript enthusiast, and course creator.';
+  'Web Developer, JavaScript and Elixir enthusiast, aspiring content-creator.';
 
 const SEO = {
   title,
   description,
-  canonical: 'https://leerob.io',
+  canonical: 'https://jonton.dev',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://leerob.io',
+    url: 'https://jonton.dev',
     title,
     description,
     images: [
       {
-        url: 'https://leerob.io/static/images/og.jpg',
+        url: 'https://jonton.dev/static/images/og.jpg',
         alt: title,
         width: 1280,
         height: 720
@@ -22,8 +22,8 @@ const SEO = {
     ]
   },
   twitter: {
-    handle: '@leeerob',
-    site: '@leeerob',
+    handle: '@Jwnathan_W',
+    site: '@Jwnathan_W',
     cardType: 'summary_large_image'
   }
 };

@@ -35,15 +35,14 @@ const Index = () => {
           maxWidth="700px"
         >
           <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-            Hey, I’m Lee Robinson
+            Hey, I’m Jonathan
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
-            I’m a developer, writer, and creator. I work at ▲Vercel as a
-            Solutions Architect. You’ve found my personal slice of the internet
-            – everything you want to know and more is here.
+            I’m a Full Stack Web Developer, manager, and creator. I work at CodeCast as a
+            Web Developer. Welcome to my corner!
           </Text>
         </Flex>
-        <Flex
+        {/* <Flex
           flexDirection="column"
           justifyContent="flex-start"
           alignItems="flex-start"
@@ -62,8 +61,8 @@ const Index = () => {
           justifyContent="flex-start"
           alignItems="flex-start"
           maxWidth="700px"
-        >
-          <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
+        > */}
+          {/* <Heading letterSpacing="tight" mb={4} size="xl" fontWeight={700}>
             Projects
           </Heading>
           <ProjectCard
@@ -84,7 +83,7 @@ const Index = () => {
             href="https://jamstackfns.com/"
             icon="jamstackfns"
           />
-        </Flex>
+        </Flex> */}
         <Timeline />
         <Subscribe />
       </Stack>

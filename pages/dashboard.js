@@ -19,8 +19,8 @@ import YouTube from '../components/metrics/Youtube';
 import TopTracks from '../components/TopTracks';
 import { CustomLink } from '../components/MDXComponents';
 
-const url = 'https://leerob.io/dashboard';
-const title = 'Dashboard – Lee Robinson';
+const url = 'https://jonton.dev/dashboard';
+const title = 'Dashboard – Jonathan Wong';
 const description =
   'My personal dashboard, built with Next.js API routes deployed as serverless functions.';
 
@@ -43,7 +43,7 @@ const Dashboard = () => {
           description,
           images: [
             {
-              url: 'https://leerob.io/static/images/dashboard.jpg',
+              url: 'https://jonton.dev/static/images/dashboard.jpg',
               alt: description,
               width: 1280,
               height: 720
@@ -86,16 +86,16 @@ const Dashboard = () => {
             maxWidth="700px"
             mt={8}
           >
-            <Unsplash />
-            <YouTube />
+            {/* <Unsplash />
+            <YouTube /> */}
             <SimpleGrid columns={[1, 1, 2]} spacing={4} mb={4}>
               <Analytics />
               <GitHub />
             </SimpleGrid>
-            <SimpleGrid columns={[1, 1, 2]} spacing={4} mb={4}>
+            {/* <SimpleGrid columns={[1, 1, 2]} spacing={4} mb={4}>
               <Gumroad />
               <Buttondown />
-            </SimpleGrid>
+            </SimpleGrid> */}
           </Flex>
           <Heading letterSpacing="tight" as="h2" size="xl">
             Top Tracks

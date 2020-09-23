@@ -11,7 +11,7 @@ import {
 
 import Container from '../components/Container';
 
-export default function UsesLayout({ children }) {
+export default function ToolsLayout({ children }) {
   const { colorMode } = useColorMode();
   const textColor = {
     light: 'gray.700',
@@ -21,12 +21,12 @@ export default function UsesLayout({ children }) {
   return (
     <Container>
       <NextSeo
-        title="Uses – Lee Robinson"
+        title="Tools – Jonathan Wong"
         description={`Here's what tech I'm currently using for coding, videos, and music.`}
-        canonical="https://leerob.io/uses"
+        canonical="https://jonton.dev/tools"
         openGraph={{
-          url: 'https://leerob.io/uses',
-          title: 'Uses – Lee Robinson',
+          url: 'https://jonton.dev/tools',
+          title: 'Tools – Jonathan Wong',
           description: `Here's what tech I'm currently using for coding, videos, and music.`
         }}
       />
