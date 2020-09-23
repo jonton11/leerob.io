@@ -52,8 +52,8 @@ const About = () => {
               About Me
             </Heading>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
-              Hey, I’m Jonathan. I'm a web developer
-              &nbsp;I work at <CustomLink href="https://www.codecast.io/hello_world">CodeCast.io</CustomLink> as a Web Developer.
+              Hey, I’m Jonathan. I'm a Full Stack Web Developer.
+              &nbsp;I currently work at <CustomLink href="https://www.keela.co">Keela</CustomLink> as a the Head of Product Engineering (Web).
             </Text>
             <Text color={secondaryTextColor[colorMode]} mb={4}>
               This site was built off of the original design by <CustomLink href="https://leerob.io/">Lee Robinson</CustomLink>.
